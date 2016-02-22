@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% raw %}
+<div id="app" class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="row wind" >
+                <p>&gt;&gt;&gt;&nbsp;欢迎来到聊天室。</p>
+            </div>
+            <div class="row echo t10">
+                <textarea class="form-control" name="" rows="5" v-model="msg"></textarea>
+            </div>
+            <div class="row t10">
+                <button class="btn btn-primary" @click="echo">完成</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endraw %}
+{% endblock %}
+
+{% block load_js %}
+<script src="/static/js/chat.js"></script>
+{% endblock %}

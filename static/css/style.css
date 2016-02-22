@@ -1,0 +1,18 @@
+
+.wind {
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    border: 1px solid #E6D3D3;
+    padding: 1.2em 1.4em;
+    height: 300px;
+}
+
+.echo {
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    border: 1px solid #E6D3D3;
+}
+
+.t10 {
+    margin-top: 10px;
+}
